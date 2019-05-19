@@ -1,0 +1,50 @@
+.container {
+    background: url("../images/scott-rodgerson-375874-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+    width: 100%;
+    height: 800px;
+    opacity: 30%;
+    position: relative;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    opacity: .3;
+    z-index: 100;
+}
+ 
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 24px;
+}
+
+#directionsText {
+    font-size: 28px;
+}

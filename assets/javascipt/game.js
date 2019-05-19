@@ -4,7 +4,7 @@ var letters = ["a", "b", "c", "d", "e", "f", "g", "f", "h", "i", "j", "k", "l", 
 
 var wins = 0;
 var loses = 0;
-var guessesLeft, guessedLettters, lettertoGuess;
+var guessesLeft, guessedLetters, lettertoGuess;
 
 resetGame();
 display();
